@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+header {
+    background-image: url(fondo1.jpg);
+    background-size: cover;
+    background-position: 100% 70%;
+    background-attachment: fixed;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mates {
+    background-image: url(fondo1.jpg);
+    background-size: cover;
+    background-position: 100% 70%;
+    background-attachment: fixed;
+    height: 500px;
+}
+nav {
+    background-color: #593528;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    
+    position: sticky;
+    top: 0px;
+}
+
+
+
+nav ul li {
+    width: 200px;
+    display: inline-block;
+}
+
+.menuItem {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+.menuItem:hover {
+    border-bottom: 3px solid rgb(219, 228, 219);
+}
+h1 {
+    color: #401722;
+    background-color: white;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+
+    border: 5px solid white;
+    min-width: 300px;
+}
+h2 {
+    font-family: "Montserrat", sans-serif;
+}
+p {
+    color: #262223;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.importante {
+    color: #401722;
+    font-weight: 900;
+}
+
+.galeria {
+    background-color: #D9B777;
+    padding: 50px; 
+    min-height: 200px;
+}
+
+.foto {
+    width: 300px;
+    border: 2px solid #401722;
+    background-color: white;
+    margin-left: 50px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.lista-tesimonios {
+    background-color: #f5f2eb;
+    padding: 50px; 
+    min-height: 300px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+.testimonio {
+    border: 1px solid silver;
+    width: 250px;
+    height: 200px;
+    padding: 16px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #262223;
+
+    transition: all ease-in-out 0.3s;
+}
+
+.testimonio:hover {
+    box-shadow: 2px 2px 5px #262223;
+    opacity: 0.5;
+
+}
+
+.promo {
+    padding: 32px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+
+footer {
+    background-color: #401722;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+.chat {
+    width: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#seccion2 {
+    min-height: 200px;
+    margin-top: 32px;
+    padding: 64px;
+}
+
+.row {
+    display: flex;
+    padding: 16px;
+}
+
+.col {
+    background-color: rgb(254, 210, 171);
+    width: 100%;
+    padding: 10px;
+}
+
+.btn-primario {
+    background-color: #593528;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.btn-primario:hover {
+    background-color: #3b241b;
+    color: white;
+}
+
+summary {
+    cursor: pointer;
+}
+
+
+details {
+    margin-bottom: 16px;
+}
+
+details p {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    border: 1px solid black;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 16px;
+
+    font-family: "Montserrat", sans-serif;
+
+}
+
+input, textarea {
+    padding: 8px;
+}
+form button {
+    padding: 8px;
+    background-color: #593528;
+    color: white;
+}
+
+form button:hover{
+    background-color: #251711;
+}
